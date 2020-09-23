@@ -1,0 +1,18 @@
+package com.code.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class LifeCycleApp {
+
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("BeanLifeCycle-applicationContext.xml");
+		TrackCoach trackCoach = context.getBean("myTrackCoach",TrackCoach.class);
+		//System.out.println(trackCoach.getFortune());
+		//trackCoach.startingMethod();
+		//trackCoach.endingMethod();
+		
+		//context.close();
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.sam.springdemo;
+
+import java.util.Random;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class FortuneProviderMini implements FortuneService {
+
+	private String[] values = {"You are awesome","You the Best","You will succeed"};
+	
+	
+	@Override
+	public String getFortune() {
+		
+		Random ran = new Random();
+		
+		
+		return values[ran.nextInt(values.length)];
+	}
+
+}

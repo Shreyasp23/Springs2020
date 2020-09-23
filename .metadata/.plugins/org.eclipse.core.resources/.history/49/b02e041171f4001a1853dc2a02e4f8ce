@@ -1,0 +1,18 @@
+package com.code.springdemo;
+
+public class CricketCoach implements Coach {
+
+	@Override
+	public String getDailyWorkOut() {
+		
+		return "Do net practice";
+	}
+
+	@Override
+	public String getFortune() {
+		FortuneService Fs;
+		
+		return Fs.getFortune();
+	}
+
+}
