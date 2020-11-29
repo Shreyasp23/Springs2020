@@ -1,11 +1,15 @@
 package com.sam.springdemo;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
+
 public class TennisCoach implements Coach {
 	
 	/*@Autowired
@@ -53,7 +57,15 @@ public class TennisCoach implements Coach {
 		this.fortuneService=fortuneService;
 	}*/
 	
+	@PostConstruct
+	public void startUp() {
+		System.out.println("Inside do start up stuff");
+	}
 	
+	@PreDestroy
+	public void cleanUp() {
+		System.out.println("Inside do clean up stuff");
+	}
 	
 	@Override
 	public String getDailyWorkOut() {

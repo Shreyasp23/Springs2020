@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.code.springdemo.HappyFornuteService"/>
-<fullyQualifiedTypeName name="com.code.springdemo.BaseBallCoach"/>
-<fullyQualifiedTypeName name="com.code.springdemo.FortuneService"/>
-<fullyQualifiedTypeName name="com.code.springdemo.CricketCoach"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.code.springdemo.HappyFornuteService"/>
+    <fullyQualifiedTypeName name="com.code.springdemo.BaseBallCoach"/>
+    <fullyQualifiedTypeName name="com.code.springdemo.FortuneService"/>
+    <fullyQualifiedTypeName name="com.code.springdemo.CricketCoach"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="com.sam.aopdemo.service.TrafficFortuneService"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="org.springframework.web.client.HttpClientErrorException"/>
 </qualifiedTypeNameHistroy>

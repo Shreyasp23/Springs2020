@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=Spring-Demo-Annotation/src&lt;com.sam.springdemo{Coach.java[Coach" modifiers="513" timestamp="1600281458882"/>
-<typeInfo handle="=Spring-Demo-Annotation/src&lt;com.sam.springdemo{FortuneService.java[FortuneService" modifiers="513" timestamp="1600283916694"/>
-<typeInfo handle="=Spring-Demo-Annotation/lib\/spring-web-5.2.8.RELEASE.jar&lt;org.springframework.http.codec.multipart(FormFieldPart.class[FormFieldPart" modifiers="1537" timestamp="1599683484940"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
